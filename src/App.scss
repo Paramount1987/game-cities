@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  //animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+.App-header {
+
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  position: relative;
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.App-intro {
+  color: #fff;
+  font-size: large;
+}
+
+.country-title {
+  position: relative;
+  z-index: 10;
+  top: 20px;
+}
+
+.land {
+  fill: #CCCCCC;
+  fill-opacity: 1;
+  stroke: white;
+  stroke-opacity: 1;
+  stroke-width: 0.5;
+  transition: all linear .2s;
+
+  &.active:not(.done):not(.n-done) {
+    fill: #007bff;
+    animation: ColorInOut 3s linear infinite;
+  }
+  &.done {
+    fill: #28a745 !important;
+  }
+  &.n-done {
+    fill: #d43f3a !important;
+  }
+}
+
+.btn-city {
+  animation: FadeToTop .5s linear forwards;
+}
+//
+.svgWorldMap {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: FadeToScale 1s linear forwards;
+
+  &-wrapper {
+    position: relative;
+    width: 1010px;
+    height: 650px;
+    margin: 0 auto;
+  }
+}
+
+.music-icon {
+  width: 30px;
+  height: 30px;
+  &-wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 3px;
+    right: -45px
+  }
+  path {
+    fill: #fff;
+    transition: all linear .2s;
+  }
+  &.is-playing path {
+    fill: #007bff;
+  }
+  &:hover path {
+    fill: #007bff;
+  }
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  0% { transform: scale(1.0); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1.0); }
+}
+
+@keyframes ColorInOut {
+  0% { fill: #007bff; }
+  50% { fill: #032c58; }
+  100% { fill: #007bff; }
+}
+
+@keyframes FadeToTop {
+  0% { transform: translate(0, 5px); opacity: 0; }
+  100% { transform: translate(0, 0); opacity: 1; }
+}
+
+@keyframes FadeToScale {
+  0% { transform: scale(.98); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
