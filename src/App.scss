@@ -54,6 +54,15 @@
   animation: FadeToTop .5s linear forwards;
 }
 //
+.svg-title {
+  position: absolute;
+  z-index: 50;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 0 0 2px #000;
+}
+
 .svgWorldMap {
   position: absolute;
   z-index: 2;
