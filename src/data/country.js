@@ -119,4 +119,184 @@ export const country = [
         "capital": "Ниамей",
         "flag": "NE"
     },
+    {
+        "id": 21,
+        "title": "Ангола",
+        "capital": "Луанда",
+        "flag": "AO"
+    },
+    {
+        "id": 22,
+        "title": "Мали",
+        "capital": "Бамако",
+        "flag": "ML"
+    },
+    {
+        "id": 23,
+        "title": "Колумбия",
+        "capital": "Богота",
+        "flag": "CO"
+    },
+    {
+        "id": 24,
+        "title": "Эфиопия",
+        "capital": "Аддис-Абеба",
+        "flag": "ET"
+    },
+    {
+        "id": 25,
+        "title": "Боливия",
+        "capital": "Сукре",
+        "flag": "BO"
+    },
+    {
+        "id": 26,
+        "title": "Мавритания",
+        "capital": "Нуакшот",
+        "flag": "MR"
+    },
+    {
+        "id": 27,
+        "title": "Египет",
+        "capital": "Каир",
+        "flag": "EG"
+    },
+    {
+        "id": 28,
+        "title": "Танзания",
+        "capital": "Додома",
+        "flag": "TZ"
+    },
+    {
+        "id": 29,
+        "title": "Нигерия",
+        "capital": "Абуджа",
+        "flag": "NG"
+    },
+    {
+        "id": 30,
+        "title": "Венесуэла",
+        "capital": "Каракас",
+        "flag": "VE"
+    },
+    {
+        "id": 31,
+        "title": "Намибия",
+        "capital": "Виндхук",
+        "flag": "NA"
+    },
+    {
+        "id": 32,
+        "title": "Пакистан",
+        "capital": "Исламабад",
+        "flag": "PK"
+    },
+    {
+        "id": 33,
+        "title": "Мозамбик",
+        "capital": "Мапуту",
+        "flag": "MZ"
+    },
+    {
+        "id": 34,
+        "title": "Турция",
+        "capital": "Анкара",
+        "flag": "TR"
+    },
+    {
+        "id": 35,
+        "title": "Чили",
+        "capital": "Сантьяго",
+        "flag": "CL"
+    },
+    {
+        "id": 36,
+        "title": "Замбия",
+        "capital": "Лусака",
+        "flag": "ZM"
+    },
+    {
+        "id": 37,
+        "title": "Мьянма",
+        "capital": "Нейльидо",
+        "flag": "MM"
+    },
+    {
+        "id": 38,
+        "title": "Афганистан",
+        "capital": "Кабул",
+        "flag": "AF"
+    },
+    {
+        "id": 39,
+        "title": "Сомали",
+        "capital": "Могадишо",
+        "flag": "SO"
+    },
+    {
+        "id": 40,
+        "title": "Украина",
+        "capital": "Киев",
+        "flag": "UA"
+    },
+    {
+        "id": 41,
+        "title": "Мадагаскар",
+        "capital": "Антананариву",
+        "flag": "MG"
+    },
+    {
+        "id": 42,
+        "title": "Франция",
+        "capital": "Париж",
+        "flag": "FR"
+    },
+    {
+        "id": 43,
+        "title": "Таиланд",
+        "capital": "Бангкок",
+        "flag": "TH"
+    },
+    {
+        "id": 44,
+        "title": "Испания",
+        "capital": "Мадрид",
+        "flag": "ES"
+    },
+    {
+        "id": 45,
+        "title": "Япония",
+        "capital": "Токио",
+        "flag": "JP"
+    },
+    {
+        "id": 46,
+        "title": "Германия",
+        "capital": "Берлин",
+        "flag": "DE"
+    },
+    {
+        "id": 47,
+        "title": "Финлядния",
+        "capital": "Хельсинки",
+        "flag": "FI"
+    },
+    {
+        "id": 48,
+        "title": "Италия",
+        "capital": "Рим",
+        "flag": "IT"
+    },
+    {
+        "id": 49,
+        "title": "Великобритания",
+        "capital": "Лондон",
+        "flag": "GB"
+    },
+    {
+        "id": 50,
+        "title": "Норвегия",
+        "capital": "Осло",
+        "flag": "NO"
+    },
 ]
